@@ -1,0 +1,44 @@
+# 🌱 LeafCare AI – Plant Disease Detection
+
+## About the Project
+
+LeafCare AI is a deep learning project that classifies plant leaf images into disease categories using a Convolutional Neural Network (CNN).
+
+## Features
+
+* Classifies plant leaf images into 38 categories.
+* Uses image preprocessing and deep learning.
+* Displays the predicted category and model confidence.
+
+## Technologies Used
+
+* Python
+* TensorFlow / Keras
+* CNN (Convolutional Neural Network)
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Hugging Face Datasets
+
+## Dataset
+
+PlantVillage Tiny dataset containing 1,900 leaf images.
+
+## Model Performance
+
+* Test Accuracy: 45%
+* Test Loss: 1.9699
+
+*Performance is based on the test split used in this project. Further training and testing are needed to improve reliability.*
+
+## How to Run
+
+1. Open the `LeafCare_AI.ipynb` notebook in Google Colab.
+2. Install the required libraries.
+3. Load the dataset and run the notebook cells in order.
+4. Train and evaluate the model.
+5. Test a leaf image prediction.
+
+## Disclaimer
+
+This is an educational project and is not a substitute for professional plant disease diagnosis.
